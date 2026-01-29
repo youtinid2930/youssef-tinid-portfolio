@@ -2,32 +2,42 @@ import { FiMail, FiLinkedin, FiGithub, FiMapPin } from "react-icons/fi";
 import { SiLeetcode } from "react-icons/si";
 
 export default function Contact() {
-  const contactLinks = [
-    {
-      name: "Email",
-      value: "tinidyoussef.pro@gmail.com",
-      href: "mailto:tinidyoussef.pro@gmail.com",
-      icon: FiMail,
-      color: "blue",
-      description: "Send me an email"
-    },
-    {
-      name: "LinkedIn",
-      value: "youssef-tinid",
-      href: "https://www.linkedin.com/in/youssef-tinid/",
-      icon: FiLinkedin,
-      color: "blue",
-      description: "Connect professionally"
-    },
-    {
-      name: "GitHub",
-      value: "youtinid2930",
-      href: "https://github.com/youtinid2930",
-      icon: FiGithub,
-      color: "gray",
-      description: "View my projects"
-    },
-  ];
+
+  type Color = "blue" | "gray" | "orange";
+
+  const contactLinks: {
+  name: string;
+  value: string;
+  href: string;
+  icon: any;
+  color: Color;
+  description: string;
+}[] = [
+  {
+    name: "Email",
+    value: "tinidyoussef.pro@gmail.com",
+    href: "mailto:tinidyoussef.pro@gmail.com",
+    icon: FiMail,
+    color: "blue",
+    description: "Send me an email"
+  },
+  {
+    name: "LinkedIn",
+    value: "youssef-tinid",
+    href: "https://www.linkedin.com/in/youssef-tinid/",
+    icon: FiLinkedin,
+    color: "blue",
+    description: "Connect professionally"
+  },
+  {
+    name: "GitHub",
+    value: "youtinid2930",
+    href: "https://github.com/youtinid2930",
+    icon: FiGithub,
+    color: "gray",
+    description: "View my projects"
+  },
+];
 
   const colorClasses = {
     blue: "bg-blue-100 text-blue-600 hover:bg-blue-200 border-blue-200",
