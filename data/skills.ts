@@ -5,7 +5,6 @@ export const skills = [
       { name: "Java", icon: "☕" },
       { name: "Python", icon: "🐍" },
       { name: "JavaScript", icon: "📜" },
-      { name: "C/C++", icon: "⚙️" }
     ],
     color: "blue"
   },
