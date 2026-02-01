@@ -11,7 +11,7 @@ export default function About() {
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl translate-y-32 -translate-x-32" />
 
       <Container>
-        <div className="relative max-w-4xl mx-auto text-center md:text-left">
+        <div className="relative max-w-4xl mx-auto text-left">
           {/* Title */}
           <div className="mb-10 md:mb-14">
             <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-5 bg-gradient-to-r from-gray-900 via-blue-600 to-purple-600 bg-clip-text text-transparent">
