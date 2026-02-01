@@ -14,7 +14,7 @@ export default function About() {
         <div className="relative max-w-4xl mx-auto text-left">
           {/* Title */}
           <div className="mb-10 md:mb-14">
-            <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-5 bg-gradient-to-r from-gray-900 via-blue-600 to-purple-600 bg-clip-text text-transparent">
+            <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-center mb-5 bg-gradient-to-r from-gray-900 via-blue-600 to-purple-600 bg-clip-text text-transparent">
               About Me
             </h2>
             <div className="w-20 md:w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto md:mx-0 rounded-full" />
