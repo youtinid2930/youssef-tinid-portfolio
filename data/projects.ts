@@ -41,7 +41,7 @@ export const projects: Project[] = [
     name: "Portfolio Website",
     description: "Modern portfolio website built with Next.js and Tailwind CSS, featuring responsive design and smooth animations.",
     stack: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
-    link: "https://github.com/youtinid2930/youssef-tinid-portfolio.git",
+    link: "https://github.com/youtinid2930/youssef-tinid-portfolio",
     icon: "🎨", // Custom icon
     type: "Frontend",
     status: "Completed"
