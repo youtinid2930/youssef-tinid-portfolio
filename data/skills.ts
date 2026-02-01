@@ -1,10 +1,13 @@
 export const skills = [
   {
-    category: "Languages",
+    category: "Programming Languages",
     items: [
       { name: "Java", icon: "☕" },
       { name: "Python", icon: "🐍" },
+      { name: "C/C++", icon: "💻" },
       { name: "JavaScript", icon: "📜" },
+      { name: "TypeScript", icon: "🟦" },
+      { name: "PHP", icon: "🐘" }
     ],
     color: "blue"
   },
@@ -12,6 +15,7 @@ export const skills = [
     category: "Frameworks & Libraries",
     items: [
       { name: "Spring Boot", icon: "🌱" },
+      { name: "NestJS", icon: "🛡️" },
       { name: "Laravel", icon: "🪶" },
       { name: "Next.js", icon: "▲" },
       { name: "React", icon: "⚛️" }
@@ -19,23 +23,32 @@ export const skills = [
     color: "purple"
   },
   {
-    category: "Tools & Platforms",
+    category: "Databases",
     items: [
-      { name: "Git", icon: "📊" },
-      { name: "Docker", icon: "🐳" },
-      { name: "Linux", icon: "🐧" },
-      { name: "n8n", icon: "🔄" }
+      { name: "MySQL", icon: "🐬" },
+      { name: "PostgreSQL", icon: "🐘" },
+      { name: "MongoDB", icon: "🍃" },
+      { name: "Oracle Database", icon: "🔶" }
     ],
     color: "green"
   },
   {
-    category: "Concepts",
+    category: "DevOps & Automation",
     items: [
-      { name: "REST APIs", icon: "🔗" },
-      { name: "MVC Pattern", icon: "🏗️" },
-      { name: "Authentication", icon: "🔐" },
-      { name: "CI/CD Basics", icon: "⚡" }
+      { name: "Docker", icon: "🐳" },
+      { name: "Jenkins", icon: "🔧" },
+      { name: "Kubernetes", icon: "☸️" },
+      { name: "n8n Workflow", icon: "🔄" }
     ],
-    color: "orange"
+    color: "teal"
+  },
+  {
+    category: "Soft Skills",
+    items: [
+      { name: "Team Collaboration", icon: "🤝" },
+      { name: "Problem Solving", icon: "🧩" },
+      { name: "Adaptability", icon: "🌱" }
+    ],
+    color: "pink"
   }
 ];

@@ -16,7 +16,7 @@ export const projects: Project[] = [
     link: "https://github.com/AH-Digital-go/DEVPFA-SQUAD-FILEFLOW-.git",
     icon: "📁", // Custom icon
     type: "Full Stack Web App",
-    status: "Active"
+    status: "Completed"
   },
   {
     name: "BloodFlow Manager",
@@ -36,14 +36,31 @@ export const projects: Project[] = [
     type: "AI/ML Research",
     status: "Research"
   },
-  // Add more projects easily:
   {
     name: "Portfolio Website",
     description: "Modern portfolio website built with Next.js and Tailwind CSS, featuring responsive design and smooth animations.",
-    stack: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    stack: ["Next.js", "TypeScript", "Tailwind CSS"],
     link: "https://github.com/youtinid2930/youssef-tinid-portfolio",
     icon: "🎨", // Custom icon
     type: "Frontend",
     status: "Completed"
   },
+  {
+    name: "ExpenseManager",
+    description: "Android app for tracking personal expenses with detailed analytics, budget management, and category-based reports.",
+    stack: ["Java", "Android Studio", "SQLite", "Material Design"],
+    link: "https://github.com/youtinid2930/ExpenseManager",
+    icon: "💰",
+    type: "Mobile App",
+    status: "Completed"
+  },
+  {
+    name: "FocusTimer",
+    description: "Pomodoro timer web app to boost productivity with focus sessions, breaks, and notifications.",
+    stack: ["C#", "ASP.NET Core", "JavaScript", "HTML", "CSS"],
+    link: "https://github.com/youtinid2930/FocusTimer",
+    icon: "⏱️",
+    type: "Web App",
+    status: "Completed"
+  }
 ];

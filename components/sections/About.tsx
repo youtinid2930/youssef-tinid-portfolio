@@ -59,7 +59,7 @@ export default function About() {
             {/* Stats */}
             <div className="mt-10 pt-8 border-t border-gray-100 grid grid-cols-2 md:grid-cols-3 gap-6">
               <Stat value="4+" label="Years Coding" />
-              <Stat value="10+" label="Projects Built" />
+              <Stat value="9+" label="Projects Built" />
               <Stat
                 value="5+"
                 label="Technologies"
