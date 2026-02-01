@@ -47,7 +47,7 @@ export const projects: Project[] = [
   },
   {
     name: "ExpenseManager",
-    description: "Android app for tracking personal expenses with detailed analytics, budget management, and category-based reports.",
+    description: "Android application designed to help households or small groups fairly manage shared expenses. Users can record who paid, calculate total spending, and determine who owes whom at the end of a cycle.",
     stack: ["Java", "Android Studio", "SQLite", "Material Design"],
     link: "https://github.com/youtinid2930/ExpenseManager",
     icon: "💰",
