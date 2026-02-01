@@ -1,7 +1,7 @@
 # Youssef Tinid - Portfolio
 
 Welcome to my personal portfolio! I am a passionate **Software Engineering student** with experience in full-stack development, AI-powered solutions, and modern web technologies.  
-view my portfolio here [https://youssef-tinid-portfolio.vercel.app/] (https://youssef-tinid-portfolio.vercel.app/)
+view my portfolio here [https://youssef-tinid-portfolio.vercel.app/](https://youssef-tinid-portfolio.vercel.app/)
 ---
 
 ## 🚀 About Me
